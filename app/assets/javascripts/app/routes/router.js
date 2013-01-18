@@ -1,3 +1,10 @@
 App.Router.map(function() {
-  this.route("Homr", { path: "/" });
+	this.route("home", { path: "/" });
+  //match("/").to("home");
+});
+
+App.HomeRoute = Ember.Route.extend({
+	setupControllers: function (controller) {
+		controller.set('developers', developers);
+	}
 });
