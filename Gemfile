@@ -3,6 +3,7 @@ source 'https://rubygems.org'
 gem 'rails', '3.2.11'
 gem 'sqlite3'
 gem 'newrelic_rpm'
+gem 'ember-rails', git: "git://github.com/emberjs/ember-rails.git"
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'

@@ -12,14 +12,13 @@
 //
 //= require vendor/jquery
 //= require vendor/handlebars
-//= require vendor/ember
-//= require vendor/ember-data
-//
-//= require_tree ./app/config
-//= require_tree ./app/routes
-//= require_tree ./app/mixins
-//= require_tree ./app/models
-//= require_tree ./app/controllers
-//= require_tree ./app/views
-//= require_tree ./app/helpers
-//= require_tree ./app/templates
+//= require ember
+//= require ember-data
+//= require_tree ./config
+//= require_tree ./routes
+//= require_tree ./mixins
+//= require_tree ./models
+//= require_tree ./controllers
+//= require_tree ./views
+//= require_tree ./helpers
+//= require_tree ./templates
