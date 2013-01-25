@@ -1,0 +1,1 @@
+EmberSandbox.Table = DS.Model.extend();

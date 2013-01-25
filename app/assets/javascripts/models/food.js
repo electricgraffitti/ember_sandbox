@@ -1,0 +1,1 @@
+EmberSandbox.Food = DS.Model.extend();

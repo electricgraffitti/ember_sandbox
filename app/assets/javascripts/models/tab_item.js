@@ -1,0 +1,1 @@
+EmberSandbox.TabItem = DS.Model.extend();
